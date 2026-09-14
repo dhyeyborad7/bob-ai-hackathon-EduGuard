@@ -1,0 +1,14 @@
+REPLACE THIS LINE WITH YOUR ACTUAL DEMO VIDEO URL
+
+Accepted platforms:
+- YouTube (unlisted): https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+- Loom: https://www.loom.com/share/YOUR_VIDEO_ID
+- Google Drive (view-only link)
+
+Your demo video should show (3-5 minutes):
+1. The Dashboard loading with risk stats and high-risk student table
+2. Clicking a student card to see the animated risk gauge and intervention plan
+3. The IBM Bob AI chat — ask "Who is at highest risk?" and "Analyze Arjun Patel"
+4. The Students view — use the search and filter
+5. The Analytics view — walk through the 4 charts
+6. (Optional) Import a CSV file with real student data

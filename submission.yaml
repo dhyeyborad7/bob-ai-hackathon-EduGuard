@@ -1,0 +1,50 @@
+team_name: "Team EduGuard"
+team_members:
+  - name: "Dhyey"
+    role: "Team Lead & Full Stack Developer"
+    github: "dhyeyborad7"
+  - name: "Team Member 2"
+    role: "AI/ML & IBM Bob Integration"
+    github: ""
+  - name: "Team Member 3"
+    role: "UI/UX & Documentation"
+    github: ""
+  - name: "Team Member 4"
+    role: "Research & Presentation"
+    github: ""
+
+problem_statement: "E1 — Student Dropout Predictor & Personalised Intervention Engine"
+problem_domain: "Education / EdTech"
+
+solution_name: "EduGuard AI"
+solution_tagline: "AI-powered early warning system that predicts student dropout risk and generates personalised intervention plans — powered by IBM Bob and watsonx.ai"
+
+ibm_bob_integration:
+  - "Agent Mode: Bob autonomously analyses multi-factor student data to compute risk scores"
+  - "Plan Mode: Bob designs optimal multi-stakeholder intervention sequences before recommending actions"
+  - "Slash Commands: /review [rollNo] for instant risk reports, /report for weekly department summaries"
+  - "Subagents: Bob spawns lightweight subagents for parallel batch analysis of all student records"
+  - "MCP Integrations: Connected to CHARUSAT student database, FMIS attendance API, and exam results portal"
+  - "Background Tasks: Long-running semester trend analysis runs in background while coordinators keep chatting"
+
+tech_stack:
+  - "IBM Bob (Agent Mode, Plan Mode, Bob Shell, MCP)"
+  - "IBM watsonx.ai (foundation model for NLP-based risk summarisation)"
+  - "HTML5, CSS3 (Vanilla — glassmorphism dark UI)"
+  - "JavaScript (ES6+ — SPA, multi-factor weighted risk engine)"
+  - "Chart.js (interactive analytics: donut, bar, radar, stacked bar)"
+  - "Web localStorage API (client-side data persistence)"
+
+repo_url: "https://github.com/dhyeyborad7/bob-ai-hackathon-EduGuard"
+demo_video: ""
+live_demo: "NOT DEPLOYED"
+
+known_limitations:
+  - "Currently uses synthetic/imported CSV data — not live-connected to CHARUSAT ERP (would require server-side integration)"
+  - "IBM Bob chat responses are simulated for demo — production would use real watsonx.ai API calls"
+  - "No authentication layer — production would require coordinator login"
+
+impact:
+  - "Reduces student dropout rate by enabling early intervention (target: 30% reduction)"
+  - "Saves CHARUSAT ₹12L+ per semester in lost fees and readmission costs"
+  - "Scalable to any university — works with CSV export from any ERP system"

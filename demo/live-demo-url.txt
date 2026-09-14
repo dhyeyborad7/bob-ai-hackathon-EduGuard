@@ -1,0 +1,8 @@
+NOT DEPLOYED
+
+The application runs locally as a static web app.
+To run it, follow the instructions in docs/setup-guide.md:
+
+  cd src/
+  python3 -m http.server 8080
+  # Then open http://localhost:8080
